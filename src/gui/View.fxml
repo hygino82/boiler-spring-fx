@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Label layoutX="35.0" layoutY="45.0" text="Pacote principal">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPacote" layoutX="276.0" layoutY="40.0" prefHeight="39.0" prefWidth="242.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="35.0" layoutY="111.0" text="Nome da entidade">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEntidade" layoutX="276.0" layoutY="106.0" prefHeight="39.0" prefWidth="242.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="35.0" layoutY="170.0" text="Destino">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnGerar" layoutX="413.0" layoutY="213.0" mnemonicParsing="false" onAction="#btnGerarAction" text="Gerar">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <TreeView layoutX="151.0" layoutY="185.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
